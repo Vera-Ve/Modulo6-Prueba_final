@@ -6,7 +6,7 @@ const PORT = 3000;
 
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://verasavinave:AzrPqownGJYq3Cqc@cluster0.uykfgh9.mongodb.net/tareas?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://verasavinave.mongodb.net/tareas?retryWrites=true&w=majority')
 .then(() => console.log('Connected to Mondo'))
 .catch((err) => console.log('Error connecting to MongoDB', err));
 
